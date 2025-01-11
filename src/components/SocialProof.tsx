@@ -1,4 +1,3 @@
-import { theme } from '@/styles/theme';
 import Image from 'next/image';
 
 export default function SocialProof() {
