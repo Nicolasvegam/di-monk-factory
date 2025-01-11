@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://di-monk-factory.vercel.app/sitemap.xml 
