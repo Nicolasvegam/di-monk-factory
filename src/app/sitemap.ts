@@ -3,19 +3,19 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://di-monk-factory.vercel.app',
+      url: 'https://software.nicovega.dev',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://di-monk-factory.vercel.app/servicios',
+      url: 'https://software.nicovega.dev/services',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://di-monk-factory.vercel.app/contacto',
+      url: 'https://software.nicovega.dev/contact',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,

@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://di-monk-factory.vercel.app/sitemap.xml 
+# Host
+Host: https://software.nicovega.dev
+
+# Sitemaps
+Sitemap: https://software.nicovega.dev/sitemap.xml 

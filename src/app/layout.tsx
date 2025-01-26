@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   description: "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
   keywords: "software development, artificial intelligence, AI solutions, data analytics, business technology, desarrollo de software, inteligencia artificial",
   authors: [{ name: "Dimonk" }],
-  metadataBase: new URL('https://di-monk-factory.vercel.app'),
+  metadataBase: new URL('https://software.nicovega.dev'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Dimonk | Soluciones de Software e Inteligencia Artificial",
     description: "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
-    url: 'https://di-monk-factory.vercel.app',
+    url: 'https://software.nicovega.dev',
     siteName: 'Dimonk',
     images: [
       {
@@ -68,19 +68,41 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Dimonk",
-              "url": "https://di-monk-factory.vercel.app",
-              "logo": "https://di-monk-factory.vercel.app/dimonk-logo.svg",
-              "description": "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer service",
-                "url": "https://tally.so/r/nGXXAp"
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Dimonk",
+                "url": "https://software.nicovega.dev",
+                "logo": "https://software.nicovega.dev/dimonk-logo.svg",
+                "description": "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "url": "https://tally.so/r/nGXXAp"
+                }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Product",
+                "name": "Soluciones de Software e IA",
+                "description": "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
+                "image": "https://software.nicovega.dev/dimonk-logo.svg",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "5",
+                  "reviewCount": "3874",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": "Consultar",
+                  "priceCurrency": "USD",
+                  "availability": "https://schema.org/InStock"
+                }
               }
-            })
+            ])
           }}
         />
       </head>
