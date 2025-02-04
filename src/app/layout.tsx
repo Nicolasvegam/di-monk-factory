@@ -97,7 +97,7 @@ export default function RootLayout({
                 },
                 "offers": {
                   "@type": "Offer",
-                  "price": "Consultar",
+                  "price": "990",
                   "priceCurrency": "USD",
                   "availability": "https://schema.org/InStock"
                 }
