@@ -21,9 +21,11 @@ export default function Hero() {
           <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:600ms] [animation-fill-mode:forwards]">
             <a
               href="https://tally.so/r/nGXXAp"
-              className="font-mono uppercase px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-full font-medium transition-all duration-300 hover:opacity-80 bg-gradient-to-r from-[#9945FF] to-[#6B21A8]"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono uppercase px-8 py-4 rounded-full font-medium transition-all duration-300 hover:opacity-80 bg-gradient-to-r from-[#274DD5] to-[#0BBAE1] text-center"
             >
-              Iniciar Proyecto
+              Contacto
             </a>
           </div>
         </div>

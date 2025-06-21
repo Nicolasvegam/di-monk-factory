@@ -15,15 +15,13 @@ export default function ContactForm() {
           </p>
         </div>
 
-        <div className="max-w-md mx-auto animate-fade-in opacity-0 [animation-delay:400ms] [animation-fill-mode:forwards]">
-          <a
-            href="https://tally.so/r/nGXXAp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-mono uppercase px-8 py-4 rounded-full font-medium transition-all duration-300 hover:opacity-80 bg-gradient-to-r from-[#9945FF] to-[#6B21A8] text-white block text-center"
+        <div className="max-w-md mx-auto animate-fade-in opacity-0 [animation-delay:400ms] [animation-fill-mode:forwards] flex justify-center">
+          <button
+            type="submit"
+            className="font-mono uppercase px-8 py-4 rounded-full font-medium transition-all duration-300 hover:opacity-80 bg-gradient-to-r from-[#274DD5] to-[#0BBAE1] text-white block text-center"
           >
-            Iniciar Proyecto
-          </a>
+            Enviar Mensaje
+          </button>
         </div>
       </div>
     </section>

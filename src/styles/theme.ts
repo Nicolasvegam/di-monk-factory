@@ -15,7 +15,7 @@ export const theme = {
     },
   },
   gradients: {
-    primary: 'linear-gradient(135deg, #9945FF, #14F195)',
+    primary: 'linear-gradient(135deg, #274DD5, #14F195)',
     purple: 'linear-gradient(135deg, #9945FF 0%, #6B21A8 100%)',
   },
   typography: {
