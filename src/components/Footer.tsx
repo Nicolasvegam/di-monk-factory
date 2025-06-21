@@ -6,8 +6,9 @@ export default function Footer() {
   return (
     <footer className="py-8 relative overflow-hidden border-t border-white/10">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-4">
+        <div className="flex flex-col items-center gap-6">
+            {/* Logo - center */}
+            <div className="flex justify-center">
             <Image
               src="/di-monk-logo-dark-mode.svg"
               alt="Di Monk Factory"
@@ -15,11 +16,16 @@ export default function Footer() {
               height={72}
               className="h-10 w-auto"
             />
-            <p className="text-sm text-gray-400 font-mono">
-              © {currentYear} Di Monk Factory. Todos los derechos reservados.
-            </p>
           </div>
+        
+        
+          {/* Copyright text - top */}
+          <p className="text-sm text-gray-400 font-mono text-center">
+            © {currentYear} Di Monk Factory. Todos los derechos reservados.
+          </p>
           
+          
+          {/* Social links - bottom */}
           <div className="flex items-center gap-6">
             <a 
               href="https://github.com" 

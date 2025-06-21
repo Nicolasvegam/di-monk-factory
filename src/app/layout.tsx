@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     siteName: 'Dimonk',
     images: [
       {
-        url: '/dimonk-logo.svg',
-        width: 800,
-        height: 600,
+        url: '/favicon.ico',
+        width: 200,
+        height: 200,
         alt: 'Dimonk Logo',
       },
     ],
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
     images: ['/dimonk-logo.svg'],
   },
   icons: {
-    icon: '/dimonk-logo.svg',
-    shortcut: '/dimonk-logo.svg',
-    apple: '/dimonk-logo.svg',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: '/dimonk-logo.svg',
+      url: '/favicon.ico',
     },
   },
   robots: {
@@ -87,7 +87,7 @@ export default function RootLayout({
                 "@type": "Product",
                 "name": "Soluciones de Software e IA",
                 "description": "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
-                "image": "https://software.nicovega.dev/dimonk-logo.svg",
+                "image": "https://software.nicovega.dev/favicon.ico",
                 "aggregateRating": {
                   "@type": "AggregateRating",
                   "ratingValue": "5",
