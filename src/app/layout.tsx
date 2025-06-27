@@ -5,19 +5,19 @@ import "./globals.css";
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
-  title: "Dimonk | Soluciones de Software e Inteligencia Artificial",
-  description: "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
-  keywords: "software development, artificial intelligence, AI solutions, data analytics, business technology, desarrollo de software, inteligencia artificial",
-  authors: [{ name: "Dimonk" }],
+  title: "Di Monk Factory | Desarrollo Software e IA Chile - Soluciones Empresariales",
+  description: "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada. Cotiza tu proyecto gratis.",
+  keywords: "empresas desarrollo software Chile, desarrollo software a medida Chile, soluciones inteligencia artificial Chile, aplicaciones IA empresas Chile, consultoria tecnologica Chile, desarrollo MVP Chile, automatización procesos IA, transformación digital empresas, software empresarial personalizado, due diligence técnico",
+  authors: [{ name: "Di Monk Factory" }],
   metadataBase: new URL('https://software.nicovega.dev'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "Dimonk | Soluciones de Software e Inteligencia Artificial",
-    description: "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
+    title: "Di Monk Factory | Desarrollo Software e IA Chile - Soluciones Empresariales",
+    description: "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada. Cotiza tu proyecto gratis.",
     url: 'https://software.nicovega.dev',
-    siteName: 'Dimonk',
+    siteName: 'Di Monk Factory',
     images: [
       {
         url: '/favicon.ico',
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Dimonk | Soluciones de Software e Inteligencia Artificial",
-    description: "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
+    title: "Di Monk Factory | Desarrollo Software e IA Chile - Soluciones Empresariales",
+    description: "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada. Cotiza tu proyecto gratis.",
     images: ['/dimonk-logo.svg'],
   },
   icons: {
@@ -72,15 +72,24 @@ export default function RootLayout({
               {
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                "name": "Dimonk",
+                "name": "Di Monk Factory",
                 "url": "https://software.nicovega.dev",
                 "logo": "https://software.nicovega.dev/dimonk-logo.svg",
-                "description": "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
+                "description": "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada.",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "CL",
+                  "addressRegion": "Santiago"
+                },
+                "areaServed": "Chile",
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "contactType": "customer service",
                   "url": "https://tally.so/r/nGXXAp"
-                }
+                },
+                "sameAs": [
+                  "https://software.nicovega.dev"
+                ]
               },
               {
                 "@context": "https://schema.org",
