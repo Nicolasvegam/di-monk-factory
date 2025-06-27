@@ -15,7 +15,7 @@ export default function ContactForm() {
           <div className="hidden md:block animate-fade-in opacity-0 [animation-delay:200ms] [animation-fill-mode:forwards]">
             <Image
               src="/greek-god.png"
-              alt="The Creation of Adam"
+              alt="Arte clásico representando la creación y la innovación tecnológica - Di Monk Factory"
               width={800}
               height={600}
               className="transform -scale-x-100 rounded-lg"
@@ -32,12 +32,14 @@ export default function ContactForm() {
             </div>
 
             <div className="max-w-md mx-auto md:mx-0 animate-fade-in opacity-0 [animation-delay:400ms] [animation-fill-mode:forwards] flex justify-center md:justify-start">
-              <button
-                type="submit"
+              <a
+                href="https://tally.so/r/nGXXAp"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-mono uppercase px-8 py-4 rounded-full font-medium transition-all duration-300 hover:opacity-80 bg-gradient-to-r from-[#274DD5] to-[#0BBAE1] text-white"
               >
                 Enviar Mensaje
-              </button>
+              </a>
             </div>
           </div>
         </div>

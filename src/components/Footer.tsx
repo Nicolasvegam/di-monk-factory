@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex justify-center">
             <Image
               src="/di-monk-logo-dark-mode.svg"
-              alt="Di Monk Factory"
+              alt="Di Monk Factory - Logo oficial de la empresa de desarrollo de software e IA en Chile"
               width={180}
               height={72}
               className="h-10 w-auto"
