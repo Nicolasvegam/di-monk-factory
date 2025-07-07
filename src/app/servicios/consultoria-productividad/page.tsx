@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Consultoría Tecnológica y Productividad Chile | Di Monk Factory",
     description: "Transformamos la productividad de tu empresa con consultoría tecnológica especializada. Automatización de procesos, optimización de flujos de trabajo y transformación digital en Chile.",
-    url: 'https://software.nicovega.dev/servicios/consultoria-productividad',
+    url: 'https://www.dimonk.com/servicios/consultoria-productividad',
   },
 };
 

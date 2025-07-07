@@ -53,6 +53,6 @@ The main page (`src/app/page.tsx`) renders components in this order:
 
 ### Important Notes
 - The site is in **Spanish** (lang="es") targeting Spanish-speaking markets
-- Domain: `software.nicovega.dev`
+- Domain: `www.dimonk.com`
 - Uses Tally.so for contact form handling
 - Includes comprehensive meta tags and structured data for SEO

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aplicaciones de Inteligencia Artificial en Chile | Di Monk Factory",
     description: "Desarrollamos aplicaciones de IA personalizadas para empresas chilenas. Automatización de procesos, análisis de datos, chatbots y machine learning. Transforma tu negocio con IA.",
-    url: 'https://software.nicovega.dev/servicios/aplicaciones-inteligencia-artificial',
+    url: 'https://www.dimonk.com/servicios/aplicaciones-inteligencia-artificial',
   },
 };
 

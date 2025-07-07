@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Due Diligence Técnico en Chile | Di Monk Factory",
     description: "Evaluación técnica especializada para inversionistas y empresas en Chile. Auditoría de código, arquitectura, seguridad y riesgos tecnológicos. Expertos en due diligence.",
-    url: 'https://software.nicovega.dev/servicios/due-diligence-tecnico',
+    url: 'https://www.dimonk.com/servicios/due-diligence-tecnico',
   },
 };
 

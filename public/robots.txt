@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://software.nicovega.dev
+Host: https://www.dimonk.com
 
 # Sitemaps
-Sitemap: https://software.nicovega.dev/sitemap.xml 
+Sitemap: https://www.dimonk.com/sitemap.xml 

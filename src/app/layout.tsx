@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   description: "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada. Cotiza tu proyecto gratis.",
   keywords: "empresas desarrollo software Chile, desarrollo software a medida Chile, soluciones inteligencia artificial Chile, aplicaciones IA empresas Chile, consultoria tecnologica Chile, desarrollo MVP Chile, automatización procesos IA, transformación digital empresas, software empresarial personalizado, due diligence técnico",
   authors: [{ name: "Di Monk Factory" }],
-  metadataBase: new URL('https://software.nicovega.dev'),
+  metadataBase: new URL('https://www.dimonk.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Di Monk Factory | Desarrollo Software e IA Chile - Soluciones Empresariales",
     description: "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada. Cotiza tu proyecto gratis.",
-    url: 'https://software.nicovega.dev',
+    url: 'https://www.dimonk.com',
     siteName: 'Di Monk Factory',
     images: [
       {
@@ -73,8 +73,8 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "Di Monk Factory",
-                "url": "https://software.nicovega.dev",
-                "logo": "https://software.nicovega.dev/dimonk-logo.svg",
+                "url": "https://www.dimonk.com",
+                "logo": "https://www.dimonk.com/dimonk-logo.svg",
                 "description": "Líder en desarrollo de software a medida y aplicaciones de IA en Chile. Transformamos negocios con tecnología avanzada.",
                 "address": {
                   "@type": "PostalAddress",
@@ -88,7 +88,7 @@ export default function RootLayout({
                   "url": "https://tally.so/r/nGXXAp"
                 },
                 "sameAs": [
-                  "https://software.nicovega.dev"
+                  "https://www.dimonk.com"
                 ]
               },
               {
@@ -96,7 +96,7 @@ export default function RootLayout({
                 "@type": "Product",
                 "name": "Soluciones de Software e IA",
                 "description": "Implementamos soluciones basadas en software, datos e inteligencia artificial para impulsar tu negocio hacia el futuro digital.",
-                "image": "https://software.nicovega.dev/favicon.ico",
+                "image": "https://www.dimonk.com/favicon.ico",
                 "aggregateRating": {
                   "@type": "AggregateRating",
                   "ratingValue": "5",

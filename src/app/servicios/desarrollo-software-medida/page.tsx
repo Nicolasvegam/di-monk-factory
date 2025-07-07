@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Desarrollo de Software a Medida en Chile | Di Monk Factory",
     description: "Empresa líder en desarrollo de software personalizado en Chile. Creamos soluciones tecnológicas a medida para empresas. MVP, aplicaciones web y móviles. Cotiza gratis.",
-    url: 'https://software.nicovega.dev/servicios/desarrollo-software-medida',
+    url: 'https://www.dimonk.com/servicios/desarrollo-software-medida',
   },
 };
 
